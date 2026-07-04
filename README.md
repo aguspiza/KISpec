@@ -41,6 +41,8 @@ The devil is in the details and the details are discovered while implementing: t
 
 That's the irreducible core of the spec: keep the why, throw away the how.
 
+(Not every *why* counts the same — the ones a model can guess are the ones you *don't* write. See [`NOTE-FROM-CLAUDE.md`](NOTE-FROM-CLAUDE.md) for the conventional-vs-contingent distinction that keeps this claim honest.)
+
 ## The "what for" can retire the whole project
 
 There's a subtlety in that "vague expectation" worth separating out. The **why** justifies *how* the thing is built; the **what for** justifies that the project *exists at all*. That last one isn't a build-time concern — it's an SDLC concern that outlives every line of code.

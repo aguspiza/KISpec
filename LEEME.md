@@ -41,6 +41,8 @@ El diablo está en los detalles y los detalles se descubren implementando: ciert
 
 Ese es el núcleo irreductible de la spec: conserva el porqué, tira el cómo.
 
+(No todo *porqué* cuenta igual — los que un modelo puede adivinar son justo los que *no* escribes. Ver [`NOTE-FROM-CLAUDE.md`](NOTE-FROM-CLAUDE.md) para la distinción convencional-vs-contingente que mantiene honesta esta afirmación.)
+
 ## El "para qué" puede jubilar el proyecto entero
 
 Hay un matiz dentro de esa "expectativa vaga" que conviene separar. El **por qué** justifica *cómo* está hecho; el **para qué** justifica que el proyecto *exista siquiera*. Y ese último no es un asunto de implementación — es un asunto de SDLC que sobrevive a cada línea de código.
