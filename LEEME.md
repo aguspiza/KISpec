@@ -4,7 +4,7 @@
 
 Como nos pasa con el overengineering... si te pasas caes en el **over-specification**. Lo único que necesitas de verdad es la expectativa "vaga" (el **qué**, el **por qué** y el **para qué**), los tests para validar ese requisito claramente (el TDD de toda la vida, pero a nivel de proyecto, que es lo bueno que aporta SDD o más concretamente Kiro) y, obviamente, el bucle para afinar el resultado. **KISS.**
 
-A esto le puedes añadir tus reglas de cómo hacer el trabajo con un `CLAUDE.md` para motorizar/controlar el proceso (PRs, ficheros de reporte o incluso gestión de tickets de Jira). Pero cuidado: **cada control es un bloqueo en el trabajo de la IA.**
+A esto le puedes añadir tus reglas de cómo hacer el trabajo con un `AGENTS.md` para motorizar/controlar el proceso (PRs, ficheros de reporte o incluso gestión de tickets de Jira). Pero cuidado: **cada control es un bloqueo en el trabajo de la IA.**
 
 He desarrollado —bueno, yo solo *pido* 😄— proyectos complejísimos partiendo de unas simples "expectativas" de lo que quiero y luego afinando el resultado con más "expectativas". Todas estas rigideces no aportan mucho si el modelo es suficientemente bueno (y Fable ya tiene mejor criterio y más "experiencia" de cómo hacer el proyecto que tú). Tu opinión aporta poco, salvo para acortar el bucle y acercarte a tus expectativas más rápido y con menos tokens; es más, muchas veces lo *limita*, porque le impide llegar a mejores soluciones.
 

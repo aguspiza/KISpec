@@ -22,7 +22,7 @@ Ship the smallest structure that still captures what doesn't expire:
 - `EXPECTATIONS.md` — the what / why / what for (the "vague expectation")
 - `tests/` — the executable spec (project-level TDD)
 - `decisions/` — ADRs for the why of everything found along the way
-- `CLAUDE.md` — the single optional control (project rules)
+- `AGENTS.md` — the single optional control (project rules)
 
 ## Alternatives discarded
 

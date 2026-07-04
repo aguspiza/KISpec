@@ -4,7 +4,7 @@
 
 Just like with overengineering... push it too far and you fall into **over-specification**. All you really need is the "vague" expectation (the **what**, the **why** and the **what for**), the tests to validate that requirement clearly (good old TDD, but at project level — which is the good part SDD, or more specifically Kiro, brings to the table) and, obviously, the loop to refine the result. **KISS.**
 
-On top of that you can layer your own rules for how the work gets done via a `CLAUDE.md` to drive/control the process (PRs, report files, even Jira ticket management). But be careful: **every control is a brake on the AI's work.**
+On top of that you can layer your own rules for how the work gets done via a `AGENTS.md` to drive/control the process (PRs, report files, even Jira ticket management). But be careful: **every control is a brake on the AI's work.**
 
 I've built — well, I just *ask* 😄 — insanely complex projects starting from a few simple "expectations" of what I want and then refining the result with more "expectations". All that rigidity doesn't add much if the model is good enough (and Fable already has better judgment and more "experience" of how to do the project than you do). Your opinion adds little, except to shorten the loop and get closer to your expectations faster and with fewer tokens; in fact, it often *limits* it, because it stops the model from reaching better solutions.
 
