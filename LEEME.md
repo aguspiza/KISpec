@@ -10,6 +10,11 @@ He desarrollado —bueno, yo solo *pido* 😄— proyectos complejísimos partie
 
 Como siempre, el diablo está en los detalles, y los detalles casi siempre se descubren **durante la implementación**. Esta metodología te ayuda a estructurar el trabajo si tú mismo no sabes muy bien lo que quieres, pero al final te das cuenta de que casi siempre terminas poniendo el `"sdd": false` porque todo es demasiado sencillo y se resuelve con unos simples prompts. **YAGNI.**
 
+> *`"sdd"` es el flag por feature de [harness-sdd](https://github.com/betta-tech/harness-sdd):
+> una feature marcada `true` en su `feature_list.json` debe pasar por una fase de spec antes
+> de tocar código. Mi tesis es que la mayoría deberían ir en `false` — y este repo es el
+> esqueleto para las pocas que no.*
+
 ---
 
 ## El matiz: el debate no es SDD sí/no, es *cuánta*
@@ -80,7 +85,10 @@ Lo que deliberadamente **no** está, y por qué:
 - sin documento formal de requisitos — eso vive en grueso en `EXPECTATIONS.md` y en preciso en `tests/`.
 
 Es Kiro / Spec Kit con el dial bajado, y OpenSpec (que ya trae los ADRs dentro de sus
-change proposals) bajado un punto más. El porqué está en
+change proposals) bajado un punto más. Si
+[harness-sdd](https://github.com/betta-tech/harness-sdd) es el extremo máximo de ese
+dial — una fase de spec en cada feature —, KISpec es el extremo mínimo: el mismo dial,
+el tope opuesto. El porqué está en
 [`decisions/0001-keep-the-skeleton-minimal.md`](decisions/0001-keep-the-skeleton-minimal.md)
 — un ADR, cómo no.
 

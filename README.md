@@ -10,6 +10,11 @@ I've built — well, I just *ask* 😄 — insanely complex projects starting fr
 
 As always, the devil is in the details, and the details are almost always discovered **during implementation**. This methodology helps you structure the work if you yourself don't quite know what you want, but in the end you realize you almost always set `"sdd": false` because everything's simple enough to solve with a few plain prompts. **YAGNI.**
 
+> *`"sdd"` is the per-feature flag from [harness-sdd](https://github.com/betta-tech/harness-sdd):
+> a feature marked `true` in its `feature_list.json` must pass a spec-authoring gate before
+> any code. My claim is that most features should be `false` — and this repo is the skeleton
+> for the few that shouldn't.*
+
 ---
 
 ## The nuance: the debate isn't SDD yes/no, it's *how much*
@@ -80,7 +85,10 @@ What's deliberately **not** here, and why:
 - no formal requirements doc — that lives coarse in `EXPECTATIONS.md` and precise in `tests/`.
 
 That's Kiro / Spec Kit with the dial turned down, and OpenSpec (which already bakes
-ADRs into its change proposals) turned down one notch further. See
+ADRs into its change proposals) turned down one notch further. If
+[harness-sdd](https://github.com/betta-tech/harness-sdd) is the maximal end of that
+dial — a spec-authoring gate on every feature — KISpec is the minimal end: the same
+dial, the opposite stop. See
 [`decisions/0001-keep-the-skeleton-minimal.md`](decisions/0001-keep-the-skeleton-minimal.md)
 for the why — an ADR, naturally.
 
